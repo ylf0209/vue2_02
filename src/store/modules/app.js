@@ -18,6 +18,7 @@ const mutations = {
       Cookies.set('sidebarStatus', 0)
     }
   },
+  // 关闭左侧导航
   CLOSE_SIDEBAR: (state, withoutAnimation) => {
     Cookies.set('sidebarStatus', 0)
     state.sidebar.opened = false
